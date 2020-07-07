@@ -28,14 +28,17 @@ article, body, div, footer, header, h1, h2, p {
 
 .column1 {
     float: left;
-    width: 70%;
-    background-color: rgb(252, 181, 234);
+    width: 60%;
+    background-color: rgb(249, 253, 185);
+    padding: 3%;
 }
 
 .column2 {
     float: right;
     width: 30%;
-    background-color: rgb(252, 144, 225);
+    background-color: rgb(255, 179, 238);
+    padding: 2%;
+    padding-bottom: 5%;
 }
 
 .row:after {
@@ -69,7 +72,8 @@ article, body, div, footer, header, h1, h2, p {
 }
 
 .footer {
-    background-color: rgb(253, 106, 216);
+    background-color:  rgb(250, 224, 237);
+    border: .1em solid rgb(255, 77, 181);
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
