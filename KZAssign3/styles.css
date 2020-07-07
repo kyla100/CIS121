@@ -1,9 +1,10 @@
 /* Kyla Zhang 7/6/2020 */
+
 article, body, div, footer, header, h1, h2, p {
     border: 0;
-    padding:0;
-    margin:0;
-    top:0;
+    padding: 0;
+    margin: 0;
+    top: 0;
 }
 
 .container {
@@ -23,6 +24,24 @@ article, body, div, footer, header, h1, h2, p {
     border: 200;
     border: .1em solid rgb(255, 77, 181);
     margin-top: 2em;
+}
+
+.column1 {
+    float: left;
+    width: 70%;
+    background-color: rgb(252, 181, 234);
+}
+
+.column2 {
+    float: right;
+    width: 30%;
+    background-color: rgb(252, 144, 225);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .article {
