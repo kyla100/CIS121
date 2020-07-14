@@ -1,0 +1,166 @@
+/* Kyla Zhang 7/6/2020 */
+
+article, body, div, footer, header, h1, h2, p, table, th, td{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+.container {
+    font-family: cursive;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    margin-bottom: 1em;
+}
+
+.header {
+    background-color: rgb(250, 224, 237);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: .1em solid rgb(255, 77, 181);
+    margin-top: 2em;
+}
+
+.column1 {
+    float: left;
+    width: 60%;
+    background-color: rgb(249, 253, 185);
+    padding: 3%;
+    padding-bottom: 4.5%;
+}
+
+.column2 {
+    float: right;
+    width: 30%;
+    background-color: rgb(255, 179, 238);
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.article {
+    background-color: rgb(252, 181, 234);
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 0%;
+    padding-top: 1%;
+}
+
+.p {
+    text-align: left;
+    padding-top: 1%;
+}
+
+.hobbies {
+    background-color: rgb(252, 144, 225);
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(250, 224, 237);
+    border: .1em solid rgb(255, 77, 181);
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.navigationbar {
+    list-style-type: none;
+    margin: auto;
+    padding-left: 40%;
+    padding-right: 0%;
+    overflow: hidden;
+    background-color: rgb(238, 237, 237);
+    border: .1em solid rgb(187, 186, 186);
+    text-align: center;
+}
+
+.listformat {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+table, th, td {
+    padding: 0.5em;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border: 2px solid black;
+}
+
+th {
+    background-color: lightpink;
+}
+
+td {
+    background-color: rgb(248, 248, 248);
+}
+
+.placestd {
+    background-color: rgb(253, 230, 241);
+}
+
+.everything {
+    background-color: rgb(247, 250, 201);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.placesheadings {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+img {
+    padding: 3%;
+    float: right;
+}
+
+figure {
+    padding: 4px;
+    margin: auto;
+  }
+  
+  figcaption {
+    float: right;
+    background-color: white;
+    color: black;
+    font-style: italic;
+    margin-left: 50%;
+    margin-right: 15%;
+    padding: 1%;
+    text-align: center;
+  }
